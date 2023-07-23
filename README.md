@@ -5,12 +5,11 @@ A simple template of a Flask Web Server to help begin your project. Consists of 
 <img src="https://github.com/OpkarGhadu/Flask-Simple-Web-Server-Template/blob/main/assets/flaskSimpleWebServerTemplate.png" width="450">
 
 ## To Run: :runner:
-1. run '$ python3 app.py'
 
-or
-1. '$ export FLASK_APP=app.py'
-2. '$ export FLASK_ENV=development'
-3. '$ flask run'
+1. Enter virtual environment - '$ source myenv/bin/activate'
+2. Start server - '$ python3 app.py'
+3. Browse to 'http://127.0.0.1:5000/'
+
 
 ## Version :monkey:
 v1.0.0\
