@@ -1,0 +1,70 @@
+/* Store Global Variables */
+:root {
+    /* Colors used in site */
+    --siteBackground : #FEECE4;
+    --siteHeader     : #cb8dd5;
+    --siteText       : #000000;
+}
+
+/* Normalize Global Size Values */
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+html{
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--siteBackground);
+    color: var(--siteText);
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: var(--siteHeader);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 3rem;
+
+}
+
+#header-links a{
+    font-size: 2rem;
+    margin: 0rem 2rem;
+}
+
+main{
+    min-height: 85vh;
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p {
+    margin: 2rem 0;
+}
+
+footer{
+    background-color: var(--siteHeader);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+}

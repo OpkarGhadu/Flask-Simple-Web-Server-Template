@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- PAGE METADATA -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Flask Web Server</title>
+        <meta name="description" content="Simple Python Web Server with Flask">
+        <meta name="author" content="">		
+        <meta name="subject" content="Flask Web Server">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link 
+            rel="stylesheet" 
+            href='/static/styles.css' 
+        />
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="/">FlaskWebServer</a>
+            </h1>
+            <div id="header-links">
+                <a href="/about">About</a>
+                <a href="/hello/User">Hi User</a>
+            </div>
+        </header>
+        <main>
+            <div id="main-content">
+                <h2>Hello</h2>
+
+                <p><b>run: </b>python3 app.py 
+                </p>
+
+                <p>
+                    <b>or</b><br/>
+                    $ export FLASK_APP=app.py<br/>
+                    $ export FLASK_ENV=development<br/>
+                    $ flask run
+                </p>
+            </div>
+        </main>
+        
+        <footer>
+            <p id="copyright">&copy </p>
+
+            <a 
+                href="https://github.com/OpkarGhadu/Flask-Simple-Web-Server-Template">
+                <i class="fa fa-github" style="font-size:24px"></i>
+            </a>
+        </footer>
+        <script src="/static/script.js"></script>
+    </body>
+</html>
